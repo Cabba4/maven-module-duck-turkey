@@ -1,4 +1,6 @@
 package com.example.ducks;
+import com.example.turkey.CookedTurkey;
+import com.example.turkey.Turkey;
 
 /**
  * Hello world!
@@ -10,6 +12,15 @@ public class App
     {
         System.out.println( "Hello Ducks!" );
 
+        Turkey newTurkey = new CookedTurkey();
+        DuckAdapter importedTurkey = new TurkeyAdapter(newTurkey);
+
+        System.out.println("\nThe turkeyAdapter says...");
+        importedTurkey.quack();
+        importedTurkey.fly();
+
+
+        System.out.println("\nThe Duck Strategy Pattern says...");
         Duck mallard = new Mallard();
         //mallard.display();
         Duck rubber = new RubberDuck();

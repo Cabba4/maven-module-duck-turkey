@@ -1,4 +1,5 @@
 com\example\ducks\QuackBehaviour.class
+com\example\ducks\MallardAdapter.class
 com\example\ducks\FlyWithWings.class
 com\example\ducks\Duck.class
 com\example\ducks\App.class
@@ -10,6 +11,8 @@ com\example\ducks\RubberDuck.class
 com\example\ducks\Squeak.class
 com\example\ducks\FlyBehaviour.class
 com\example\ducks\Quack.class
+com\example\ducks\DuckAdapter.class
+com\example\ducks\TurkeyAdapter.class
 com\example\ducks\MuteQuack.class
 com\example\ducks\ModelDuck.class
 com\example\ducks\RedHeadDuck.class
